@@ -25,7 +25,7 @@ if (error) {
 const envVars: EnvVars = value;
 
 export const envs = {
-  port: envVars.PORT,
-  productsMicroserviceHost: envVars.PRODUCTS_MICROSERVICE_HOST,
-  productsMicroservicePort: envVars.PRODUCTS_MICROSERVICE_PORT,
+  PORT: envVars.PORT,
+  PRODUCTS_MICROSERVICE_HOST: envVars.PRODUCTS_MICROSERVICE_HOST,
+  PRODUCTS_MICROSERVICE_PORT: envVars.PRODUCTS_MICROSERVICE_PORT,
 };
